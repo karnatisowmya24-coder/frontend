@@ -5,7 +5,7 @@ const [welcome, setWelcome] = useState("");
 const [user, setUser] = useState(null);
 const [error, setError] = useState("");
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://backend-7rfy.onrender.com";
 
 async function getWelcome() {
 try {
